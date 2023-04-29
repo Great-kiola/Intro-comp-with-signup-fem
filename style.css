@@ -79,9 +79,31 @@ input:focus{
   border: 2px solid var(--Red);
 }
 
-/* .error::before{
+.errorMsg , .errorMsg2, .errorMsg3{
+  font-size: .6rem;
+  color: var(--Red);
+  margin-bottom: 10px;
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.errorMsg:before , .errorMsg2:before, .errorMsg3:before{
   content: '•';
-} */
+}
+
+#eError{
+  color: var(--Red);
+  font-size: .6rem;
+  margin-bottom: 10px;
+  display: none;
+}
+
+#eError::before{
+  content: '•';
+}
 
 
 /* .error {

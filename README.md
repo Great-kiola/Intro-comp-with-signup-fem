@@ -4,7 +4,7 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ## Screenshot
 
-![](./screenshot.jpg)
+<img src="./assets/screenshot.png" alt="Completed screenshot" width= 830 />
 
 ## The challenge
 
