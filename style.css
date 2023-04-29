@@ -71,6 +71,19 @@ input:focus{
   border-radius: 6px;
 }
 
+.error{
+  color: var(--Red);
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-size: .7rem;
+  display: none;
+}
+
+.error::before{
+  content: '•';
+}
+
+
 .btn:hover{
   background-color: var(--HoverBtn);
 }
