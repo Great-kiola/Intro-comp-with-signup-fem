@@ -4,17 +4,37 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-body{
-    line-height: 1.5;
-    min-height: 100vh;
+body {
+  line-height: 1.5;
+  min-height: 100vh;
+  background-image: url(./images/bg-intro-desktop.png);
+  background-color: var(--Red);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
 }
 
-.container{
-    height: 100vh;
-    background-color: aqua;
+.container {
+  display: flex;
+  margin: 200px;
+  width: 900px;
+  height: 400px;
+  background-color: white;
+  align-items: center
+}
+
+.firstDiv{
+  width: 50%;
+  margin-right: 50px
+}
+
+.secondDiv{
+  width: 50%;
 }
 
 .attribution {
@@ -23,4 +43,12 @@ body{
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+:root {
+  --DarkBlue: hsl(249, 10%, 26%);
+  --GrayishBlue: hsl(246, 25%, 77%);
+  --AccentBlue: hsl(248, 32%, 49%);
+  --Red: hsl(0, 100%, 74%);
+  --Green: hsl(154, 59%, 51%);
 }
