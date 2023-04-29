@@ -41,8 +41,10 @@ body {
   flex-direction: column;
 }
 
+
+
 .form{
-  margin-bottom: 15px;
+  margin-bottom: 9px;
   padding: 12px;
   border: 2px solid var(--GrayishBlue);
   border-radius: 4px;
@@ -73,15 +75,29 @@ input:focus{
 
 .error{
   color: var(--Red);
-  margin-top: -10px;
-  margin-bottom: 10px;
-  font-size: .7rem;
-  display: none;
+  margin-bottom: 9px;
+  border: 2px solid var(--Red);
 }
 
-.error::before{
+/* .error::before{
   content: '•';
+} */
+
+
+/* .error {
+  border: 2px solid var(--Red);
 }
+
+.error_message {
+  gap: 0;
+}
+
+.error_message::after {
+  content: "Can't be blank";
+  color: var(--Red);
+  margin-top: 0.2rem;
+  font-size: small;
+} */
 
 
 .btn:hover{
