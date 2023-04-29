@@ -41,8 +41,6 @@ body {
   flex-direction: column;
 }
 
-
-
 .form{
   margin-bottom: 9px;
   padding: 12px;
@@ -105,7 +103,6 @@ a {
   content: '•';
 }
 
-
 /* .error {
   border: 2px solid var(--Red);
 }
@@ -120,7 +117,6 @@ a {
   margin-top: 0.2rem;
   font-size: small;
 } */
-
 
 .btn:hover{
   background-color: var(--HoverBtn);

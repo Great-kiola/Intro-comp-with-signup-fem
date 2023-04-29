@@ -34,11 +34,8 @@ function handleSubmit(e){
     } else {
         pswrdInput.classList.remove('error');
     }
-
-
-
+    
     // Email Validation.
-
     let validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
     if(eAddressInput.value.match(validRegex)){
@@ -54,5 +51,4 @@ function handleSubmit(e){
     } else {
         eAddressInput.classList.remove('error');
     } 
-
 }
