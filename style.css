@@ -20,12 +20,103 @@ body {
 }
 
 .container {
+  padding: 20px;
   display: flex;
   margin: 200px;
   width: 900px;
   height: 400px;
-  background-color: white;
   align-items: center
+}
+
+.formDiv{
+  background-color: #fff;
+  min-height: 300px;
+  padding: 40px 30px;
+  border-radius: 8px;
+  box-shadow: 1px 5px 2px hsl(0, 57%, 59%);
+}
+
+.forms{
+  display: flex;
+  flex-direction: column;
+}
+
+.form{
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 2px solid var(--GrayishBlue);
+  border-radius: 4px;
+  font-size: .7rem;
+}
+
+input:focus{
+  outline: none;
+  border: 2px solid var(--AccentBlue);
+}
+
+::placeholder{
+  font-size: .6rem;
+}
+
+.btn{
+  padding: 12px;
+  width: 100%;
+  text-transform: uppercase;
+  background-color: var(--Green);
+  border: none;
+  border-bottom: 4px solid var(--HoverBtn);
+  font-weight: 600;
+  color: #fff;
+  font-size: .7rem;
+  border-radius: 6px;
+}
+
+.btn:hover{
+  background-color: var(--HoverBtn);
+}
+
+.container .secondDiv .formDiv p{
+  margin-top: 15px;
+  font-size: .6rem;
+  text-align: center;
+}
+
+.container .secondDiv .formDiv p span{
+  color: var(--Red);
+  font-weight: 700;
+}
+
+.texts{
+  color: #fff;
+}
+
+.texts h1{
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.texts p{
+  font-size: .8rem;
+}
+
+.trial{
+  background-color: var(--AccentBlue);
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 1px 5px 2px hsl(0, 57%, 59%);
+}
+
+.trial h2{
+  color: #fff;
+  font-size: .7rem;
+  text-align: center;
+}
+
+.trial h2 span{
+  font-weight: 400;
+  color: var(--GrayishBlue);
 }
 
 .firstDiv{
@@ -40,6 +131,7 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: #fff;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -51,4 +143,5 @@ body {
   --AccentBlue: hsl(248, 32%, 49%);
   --Red: hsl(0, 100%, 74%);
   --Green: hsl(154, 59%, 51%);
+  --HoverBtn: hsl(154, 66%, 39%);
 }
