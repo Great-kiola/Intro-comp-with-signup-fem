@@ -31,7 +31,7 @@ Users should be able to:
 
 ## Author
 
-- Github - [ GH ](https://www.your-site.com)
+- Github - [ GH ](https://github.com/Great-kiola)
 - Frontend Mentor - [@great-kiola](https://www.frontendmentor.io/profile/great-kiola)
 
 ## Acknowledgments
