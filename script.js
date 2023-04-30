@@ -19,6 +19,7 @@ function handleSubmit(e){
         fNameInput.classList.add('error');
     } else {
         fNameInput.classList.remove('error');
+        errorMsg.style.display = 'none';
     }
     
     if (!lNameInput.value){
@@ -26,6 +27,7 @@ function handleSubmit(e){
         lNameInput.classList.add('error');
     } else {
         lNameInput.classList.remove('error');
+        errorMsg2.style.display = 'none';
     }
 
     if (!pswrdInput.value){
@@ -33,22 +35,19 @@ function handleSubmit(e){
         pswrdInput.classList.add('error');
     } else {
         pswrdInput.classList.remove('error');
+        errorMsg3.style.display = 'none';
     }
     
     // Email Validation.
     let validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
     if(eAddressInput.value.match(validRegex)){
+        eAddressInput.classList.remove('error');
+        eError.style.display = 'none';
         return true;
     }else {
         eAddressInput.classList.add('error');
         eError.style.display = 'block';
     }
 
-
-    if (!eAddressInput.value){
-        eAddressInput.classList.add('error');
-    } else {
-        eAddressInput.classList.remove('error');
-    } 
 }
